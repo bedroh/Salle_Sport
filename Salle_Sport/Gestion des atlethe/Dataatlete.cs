@@ -20,7 +20,7 @@ namespace Salle_Sport.Gestion_des_atlethe
                 guna2DataGridView.Rows.Clear();
                 while (dr.Read())
                 {
-                    guna2DataGridView.Rows.Add(dr[0], dr[1], dr[2], dr[3], dr[4] );
+                    guna2DataGridView.Rows.Add(dr[0], dr[1], dr[2], dr[3] );
                 }
                 Conn.conn.Close();
             }catch

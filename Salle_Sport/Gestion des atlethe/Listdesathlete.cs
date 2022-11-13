@@ -26,5 +26,10 @@ namespace Salle_Sport.Gestion_des_atlethe
         {
 
         }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
