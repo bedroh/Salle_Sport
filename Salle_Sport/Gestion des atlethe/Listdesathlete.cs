@@ -19,7 +19,7 @@ namespace Salle_Sport.Gestion_des_atlethe
 
         private void Listdesathlete_Load(object sender, EventArgs e)
         {
-            Dataatlete.getlist(guna2DataGridView1 , guna2TextBox1.Text);
+          
         }
 
         private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
