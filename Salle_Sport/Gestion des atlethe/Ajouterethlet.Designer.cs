@@ -35,7 +35,7 @@ namespace Salle_Sport.Gestion_des_atlethe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(538, 356);
+            this.ClientSize = new System.Drawing.Size(545, 357);
             this.Name = "Ajouterethlet";
             this.Text = "Ajouterethlet";
             this.ResumeLayout(false);

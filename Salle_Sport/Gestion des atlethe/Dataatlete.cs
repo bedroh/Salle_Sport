@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Salle_Sport.Gestion_des_atlethe
 {
@@ -23,9 +24,26 @@ namespace Salle_Sport.Gestion_des_atlethe
                     guna2DataGridView.Rows.Add(dr[0], dr[1], dr[2], dr[3] );
                 }
                 Conn.conn.Close();
-            }catch
+            }
+            catch (Exception ex)
             {
-
+                MessageBox.Show(ex.Message);
+            }
+        }
+        public static void ajourtathlete(string nom , string prenom , string pathphoto)
+        {
+            try
+            {
+                Conn.conn.Open();
+                SqlCommand sql = new SqlCommand("insert into athlete values (N'"+nom+ "',N'" + prenom + "',N'" + pathphoto + "' ) ", Conn.conn);
+                sql.ExecuteNonQuery();
+              
+             
+                Conn.conn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
     }
