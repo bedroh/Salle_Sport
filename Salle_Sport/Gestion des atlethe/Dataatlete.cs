@@ -16,7 +16,7 @@ namespace Salle_Sport.Gestion_des_atlethe
             try
             {
                 Conn.conn.Open();
-                SqlCommand sql = new SqlCommand("select * from athlet "  , Conn.conn);
+                SqlCommand sql = new SqlCommand("select * from Athlete "  , Conn.conn);
                 SqlDataReader dr = sql.ExecuteReader();
                 guna2DataGridView.Rows.Clear();
                 while (dr.Read())
