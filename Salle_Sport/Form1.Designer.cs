@@ -53,8 +53,10 @@
             this.bunifuButton5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuPanel3 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuPanel2 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.liste_des_catigories1 = new Salle_Sport.Gestion_des_catigories.Liste_des_catigories();
             this.bunifuPanel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
+            this.bunifuPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuPanel1
@@ -827,6 +829,7 @@
             this.bunifuButton7.TextMarginLeft = 0;
             this.bunifuButton7.TextPadding = new System.Windows.Forms.Padding(0);
             this.bunifuButton7.UseDefaultRadiusAndThickness = true;
+            this.bunifuButton7.Click += new System.EventHandler(this.bunifuButton7_Click);
             // 
             // bunifuButton6
             // 
@@ -917,6 +920,7 @@
             this.bunifuButton6.TextMarginLeft = 0;
             this.bunifuButton6.TextPadding = new System.Windows.Forms.Padding(0);
             this.bunifuButton6.UseDefaultRadiusAndThickness = true;
+            this.bunifuButton6.Click += new System.EventHandler(this.bunifuButton6_Click);
             // 
             // bunifuButton5
             // 
@@ -1031,6 +1035,7 @@
             this.bunifuPanel2.BorderColor = System.Drawing.Color.Transparent;
             this.bunifuPanel2.BorderRadius = 3;
             this.bunifuPanel2.BorderThickness = 1;
+            this.bunifuPanel2.Controls.Add(this.liste_des_catigories1);
             this.bunifuPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuPanel2.Location = new System.Drawing.Point(226, 0);
             this.bunifuPanel2.Name = "bunifuPanel2";
@@ -1038,6 +1043,14 @@
             this.bunifuPanel2.ShowBorders = true;
             this.bunifuPanel2.Size = new System.Drawing.Size(955, 778);
             this.bunifuPanel2.TabIndex = 1;
+            // 
+            // liste_des_catigories1
+            // 
+            this.liste_des_catigories1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.liste_des_catigories1.Location = new System.Drawing.Point(20, 20);
+            this.liste_des_catigories1.Name = "liste_des_catigories1";
+            this.liste_des_catigories1.Size = new System.Drawing.Size(915, 738);
+            this.liste_des_catigories1.TabIndex = 0;
             // 
             // Form1
             // 
@@ -1049,6 +1062,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.bunifuPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.bunifuPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1081,6 +1095,7 @@
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton7;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton6;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton5;
+        private Gestion_des_catigories.Liste_des_catigories liste_des_catigories1;
 #pragma warning restore CS0649 // Le champ 'Form1.listdespaiment1' n'est jamais assigné et aura toujours sa valeur par défaut null
     }
 }

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Salle_Sport.Gestion_des_catigories
@@ -20,6 +13,17 @@ namespace Salle_Sport.Gestion_des_catigories
         private void Liste_des_catigories_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void bunifuTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuButton1_Click(object sender, EventArgs e)
+        {
+            Ajouter_catégorie ajtC = new Ajouter_catégorie();
+            ajtC.ShowDialog();
         }
     }
 }

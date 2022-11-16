@@ -330,11 +330,23 @@
     <Compile Include="Gestion des atlethe\Listdesathlete.Designer.cs">
       <DependentUpon>Listdesathlete.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestion des catigories\Ajouter_catégorie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion des catigories\Ajouter_catégorie.Designer.cs">
+      <DependentUpon>Ajouter_catégorie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gestion des catigories\Liste_des_catigories.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Gestion des catigories\Liste_des_catigories.Designer.cs">
       <DependentUpon>Liste_des_catigories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion des catigories\Modifier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion des catigories\Modifier.Designer.cs">
+      <DependentUpon>Modifier.cs</DependentUpon>
     </Compile>
     <Compile Include="Gestion des paiment\listdespaiment.cs">
       <SubType>UserControl</SubType>
@@ -356,8 +368,14 @@
     <EmbeddedResource Include="Gestion des atlethe\Listdesathlete.resx">
       <DependentUpon>Listdesathlete.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Gestion des catigories\Ajouter_catégorie.resx">
+      <DependentUpon>Ajouter_catégorie.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gestion des catigories\Liste_des_catigories.resx">
       <DependentUpon>Liste_des_catigories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion des catigories\Modifier.resx">
+      <DependentUpon>Modifier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gestion des paiment\listdespaiment.resx">
       <DependentUpon>listdespaiment.cs</DependentUpon>
