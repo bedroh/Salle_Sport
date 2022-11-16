@@ -1,7 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Salle_Sport
 {
@@ -11,8 +17,8 @@ namespace Salle_Sport
         public Connexion()
         {
             InitializeComponent();
-            String constring = "Data Source = .\\SQLEXPRESS ;Initial Catalog=Salle_Sport;Integrated Security=true ";
-            conn = new SqlConnection(constring);
+            String constring= "Data Source = .\\SQLEXPRESS ;Initial Catalog=Salle_Sport;Integrated Security=true ";
+            conn = new SqlConnection(constring); 
         }
 
         private void EXIT_Click(object sender, EventArgs e)
@@ -25,7 +31,7 @@ namespace Salle_Sport
             String username, password;
             username = txtusername.Text;
             password = txtPassword.Text;
-
+            
             try
             {
                 conn.Open();
@@ -47,7 +53,7 @@ namespace Salle_Sport
                 MessageBox.Show("Erreur");
             }
 
-
+            
 
         }
     }
