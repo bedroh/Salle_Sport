@@ -330,6 +330,12 @@
     <Compile Include="Gestion des atlethe\Listdesathlete.Designer.cs">
       <DependentUpon>Listdesathlete.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestion des catigories\Liste_des_catigories.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gestion des catigories\Liste_des_catigories.Designer.cs">
+      <DependentUpon>Liste_des_catigories.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gestion des paiment\listdespaiment.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -349,6 +355,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gestion des atlethe\Listdesathlete.resx">
       <DependentUpon>Listdesathlete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion des catigories\Liste_des_catigories.resx">
+      <DependentUpon>Liste_des_catigories.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gestion des paiment\listdespaiment.resx">
       <DependentUpon>listdespaiment.cs</DependentUpon>

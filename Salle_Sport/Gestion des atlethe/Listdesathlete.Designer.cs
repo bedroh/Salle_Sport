@@ -29,10 +29,13 @@ namespace Salle_Sport.Gestion_des_atlethe
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-          
+            this.SuspendLayout();
+            // 
+            // Listdesathlete
+            // 
+            this.Name = "Listdesathlete";
+            this.Size = new System.Drawing.Size(1010, 683);
+            this.ResumeLayout(false);
 
         }
 

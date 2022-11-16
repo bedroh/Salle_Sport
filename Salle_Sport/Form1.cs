@@ -12,7 +12,9 @@ namespace Salle_Sport
 {
     public partial class Form1 : Form
     {
+#pragma warning disable CS0169 // Le champ 'Form1.con' n'est jamais utilisé
         SqlConnection con;
+#pragma warning restore CS0169 // Le champ 'Form1.con' n'est jamais utilisé
         
         public Form1()
         {
@@ -47,6 +49,11 @@ namespace Salle_Sport
         {
             listdespaiment1.Show();
             listdespaiment1.BringToFront();
+        }
+
+        private void bunifuButton4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -8,16 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Salle_Sport.Gestion_des_atlethe
+namespace Salle_Sport.Gestion_des_catigories
 {
-    public partial class Ajouterethlet : Form
+    public partial class Liste_des_catigories : UserControl
     {
-        public Ajouterethlet()
+        public Liste_des_catigories()
         {
             InitializeComponent();
         }
 
-        private void bunifuTextBox1_TextChanged(object sender, EventArgs e)
+        private void Liste_des_catigories_Load(object sender, EventArgs e)
         {
 
         }
